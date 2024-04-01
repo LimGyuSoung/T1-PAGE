@@ -2,7 +2,7 @@
 
 .container {
     position: relative;
-    width: 1200px;
+    width: 1440px;
     margin: auto;
     padding: 0 10px;
     background-color: antiquewhite;
@@ -12,18 +12,19 @@
 
 header {
     position: relative;
-    width: 100%; height: 300px;
-    background-color: aqua;
+    width: 100%; height: 106px;
+    padding-top: 20px;
+    background-color: black;
 }
 .logo {
-    width: 250px; height: 150px;
+    display: flex;
+    width: 182px; height: 71px;
 }
 .main-menu {
-    width: 300px;
-    padding-right: 20px;
+    width: 462px;
 }
 
-.main-menu  ul {
+.main-menu .gnb {
     display: flex;
     justify-content: space-between;
     background-color: blue;
