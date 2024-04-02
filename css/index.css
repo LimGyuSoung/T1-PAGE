@@ -160,13 +160,14 @@ header {
 .t1-team > .t1team {
     font-size: 36px;
     font-family: 'HYgtrE';
+    padding-left: 31px;
     color: white;
 }
 .t1-team > div > ul {
     display: flex;
     justify-content: space-between;
 }
-.t1-team-lineup {
+.t1-team > .t1-team-lineup {
     float: right;
     padding-right: 10px;
     width: 1182px; height: 336px;
@@ -203,5 +204,60 @@ header {
 /* footer */
 
 .sponser-line {
+    width: 100%; height: 90px;
+    background-color: red;
+}
+.sponser-line > ul {
     display: flex;
+    justify-content: space-between;
+}
+.sponser-line > .sponser-line > li {
+    width: 120px; height: 90px;
+}
+
+
+.footer-content-box {
+    width: 100%; height: 160px;
+    background-color: black;
+}
+.footer-content-box > .footer-logo > img {
+    display: flex;
+    position: absolute;
+    top: 45px; left: 37px;
+    width: 182px; height: 73px;
+}
+
+.footer-menu {
+    width: 580px; height: 75px;
+    margin: 0 auto;
+    line-height: 2.5;
+    padding-top: 30px;
+}
+.footer-menu > ul {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-menu > ul > li a {
+    color: white;
+}
+
+.copyright {
+    position: absolute;
+    font-size: 10px;
+    color: white;
+    left: 50%;
+    top: 95%;
+    transform: translate(-50%, -50%);
+}
+
+.sns {
+    width: 221px; height: 110px;
+}
+.sns > ul {
+    position: absolute;
+    right: 0; top: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 32px);
+    grid-auto-rows: minmax(23px, auto);
+    grid-gap: 38px 14px;
 }
