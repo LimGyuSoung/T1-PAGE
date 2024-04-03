@@ -263,6 +263,8 @@ header {
 }
 
 .sns {
+    position: absolute;
+    top: 25px; right: 37px;
     width: 221px; height: 110px;
 }
 .sns > ul {
@@ -271,5 +273,5 @@ header {
     display: grid;
     grid-template-columns: repeat(3, 32px);
     grid-auto-rows: minmax(23px, auto);
-    grid-gap: 35px 14px;
+    grid-gap: 20px 15px;
 }
