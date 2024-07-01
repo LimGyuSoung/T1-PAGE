@@ -46,3 +46,11 @@ https://www.google.com
 
 #### 깃에 올려 삽입
 ![landscape](./image/Korean_best_product2.jpg)
+
+
+### 테이블 만들기
+|Header1|Header2|
+|:--:|:--|
+|content1|content2|
+|content1|content2|
+|content1|content2|
